@@ -1,0 +1,50 @@
+diff --git a/pidsmaker/tgn.py b/pidsmaker/tgn.py
+index 80bdf81..3fb51d5 100644
+--- a/pidsmaker/tgn.py
++++ b/pidsmaker/tgn.py
+@@ -10,6 +10,23 @@ from torch_geometric.utils._scatter import scatter_argmax
+ 
+ TGNMessageStoreType = Dict[int, Tuple[Tensor, Tensor, Tensor, Tensor]]
+ 
++# ecpg patch 2026-09-18: cap peak VRAM of the eval-mode all-node flush.
++# One chunk covers the same nodes as a single arange(num_nodes) call.
++_EVAL_FLUSH_CHUNK = 262144
++
++
++def _update_memory_all_nodes_chunked(update_fn, num_nodes, device, chunk_size=_EVAL_FLUSH_CHUNK):
++    """Call ``update_fn`` on contiguous node-id slices covering ``[0, num_nodes)``.
++
++    Same coverage as ``update_fn(torch.arange(num_nodes, device=device))``.
++    Does not touch the message store or any other module state between chunks.
++    """
++    n_all = torch.arange(num_nodes, device=device)
++    if torch.cuda.is_available():
++        torch.cuda.empty_cache()
++    for start in range(0, int(num_nodes), chunk_size):
++        update_fn(n_all[start : start + chunk_size])
++
+ 
+ class TGNMemory(torch.nn.Module):
+     r"""The Temporal Graph Network (TGN) memory model from the
+@@ -187,7 +204,10 @@ class TGNMemory(torch.nn.Module):
+             # As we load directly the memory from a pkl file, I don't think we need this line anymore so we
+             # removed it. If results become strange in the future, try to add this line back to ensure it
+             # doen't affect performance.
+-            self._update_memory(torch.arange(self.num_nodes, device=self.memory.device))
++            # ecpg 2026-09-18: keep the flush; run it in chunks (see helper).
++            _update_memory_all_nodes_chunked(
++                self._update_memory, self.num_nodes, self.memory.device
++            )
+             self._reset_message_store()
+         super().train(mode)
+ 
+@@ -286,7 +306,8 @@ class TimeEncodingMemory(torch.nn.Module):
+             # As we load directly the memory from a pkl file, I don't think we need this line anymore so we
+             # removed it. If results become strange in the future, try to add this line back to ensure it
+             # doen't affect performance.
+-            self._update_memory(torch.arange(self.num_nodes, device=self.device))
++            # ecpg 2026-09-18: keep the flush; run it in chunks (see helper).
++            _update_memory_all_nodes_chunked(self._update_memory, self.num_nodes, self.device)
+             self._reset_message_store()
+         super().train(mode)
+ 
