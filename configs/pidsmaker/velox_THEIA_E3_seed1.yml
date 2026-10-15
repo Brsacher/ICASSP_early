@@ -1,0 +1,738 @@
+_artifact_dir: velox_seeds/
+_debug: true
+_exp: ''
+_experiment: none
+_force_restart: ''
+_force_restart_viz: false
+_ground_truth_dir: Ground_Truth/orthrus/
+_include_yml: orthrus_non_snooped
+_is_node_level: false
+_is_running_mc_dropout: false
+_model: velox
+_restart_from_scratch: false
+_save_for_viz: false
+_subtasks_should_restart:
+- - construction
+  - false
+- - transformation
+  - false
+- - featurization
+  - false
+- - feat_inference
+  - false
+- - batching
+  - false
+- - training
+  - false
+- - evaluation
+  - false
+- - triage
+  - false
+- - postprocessing
+  - false
+_subtasks_should_restart_with_deps:
+- - construction
+  - false
+- - transformation
+  - false
+- - featurization
+  - false
+- - feat_inference
+  - false
+- - batching
+  - false
+- - training
+  - false
+- - evaluation
+  - false
+- - triage
+  - false
+- - postprocessing
+  - false
+_test_mode: false
+_tuning_file_path: ''
+_tuning_mode: none
+_use_cpu: false
+batching:
+  _logs_dir: velox_seeds/batching/batching/95249524837ea414c6b0d0673d1317b1959e8657c00e864ef22eb35bf32b7d78/THEIA_E3/logs/
+  _preprocessed_graphs_dir: velox_seeds/batching/batching/95249524837ea414c6b0d0673d1317b1959e8657c00e864ef22eb35bf32b7d78/THEIA_E3/preprocessed_graphs/
+  _task_path: velox_seeds/batching/batching/95249524837ea414c6b0d0673d1317b1959e8657c00e864ef22eb35bf32b7d78/THEIA_E3
+  edge_features: edge_type
+  fix_buggy_graph_reindexer: false
+  global_batching:
+    global_batching_batch_size: null
+    global_batching_batch_size_inference: null
+    used_method: none
+  inter_graph_batching:
+    inter_graph_batch_size: null
+    used_method: none
+  intra_graph_batching:
+    edges:
+      intra_graph_batch_size: 1024
+    tgn_last_neighbor:
+      directed: false
+      fix_buggy_orthrus_TGN: false
+      fix_tgn_neighbor_loader: false
+      insert_neighbors_before: false
+      tgn_neighbor_n_hop: 1
+      tgn_neighbor_size: 20
+    used_methods: edges
+  multi_dataset_training: null
+  node_features: node_emb,node_type
+  save_on_disk: false
+construction:
+  _dicts_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/indexid2msg/
+  _graphs_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/nx/
+  _logs_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/logs/
+  _magic_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/magic/
+  _magic_graphs_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/magic/dgl_graphs/
+  _mimicry_dir: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/mimicry/
+  _node_id_to_path: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/node_id_to_path/
+  _task_path: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086
+  _tw_labels: velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086/tw_labels/
+  fuse_edge: true
+  mimicry_edge_num: 0
+  multi_dataset: none
+  node_label_features:
+    file: type, path
+    netflow: type, remote_ip, remote_port
+    subject: type, path, cmd_line
+  time_window_size: 15.0
+  use_all_files: true
+  use_hashed_label: false
+  used_method: default
+database:
+  host: postgres
+  password: ""
+  port: 5432
+  user: postgres
+dataset:
+  attack_to_time_window:
+  - - E3-THEIA/node_Browser_Extension_Drakon_Dropper.csv
+    - '2018-04-12 12:40:00'
+    - '2018-04-12 13:30:00'
+  - - E3-THEIA/node_Firefox_Backdoor_Drakon_In_Memory.csv
+    - '2018-04-10 14:30:00'
+    - '2018-04-10 15:00:00'
+  database: theia_e3
+  database_all_file: theia_e3
+  end_date: '2018-04-14'
+  ground_truth_relative_path:
+  - E3-THEIA/node_Browser_Extension_Drakon_Dropper.csv
+  - E3-THEIA/node_Firefox_Backdoor_Drakon_In_Memory.csv
+  name: THEIA_E3
+  num_edge_types: 10
+  num_node_types: 3
+  raw_dir: ''
+  start_date: '2018-04-02'
+  test_dates:
+  - '2018-04-10'
+  - '2018-04-12'
+  - '2018-04-13'
+  train_dates:
+  - '2018-04-02'
+  - '2018-04-03'
+  - '2018-04-04'
+  - '2018-04-05'
+  - '2018-04-06'
+  - '2018-04-07'
+  - '2018-04-08'
+  unused_dates:
+  - '2018-04-11'
+  val_dates:
+  - '2018-04-09'
+evaluation:
+  _logs_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/logs/
+  _precision_recall_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/precision_recall_dir/
+  _results_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/results/
+  _task_path: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3
+  _uncertainty_exp_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/uncertainty_exp/
+  best_model_selection: best_adp
+  edge_evaluation:
+    malicious_edge_selection: src_node
+    threshold_method: max_val_loss
+  ground_truth_version: orthrus
+  node_evaluation:
+    kmeans_top_K: 30
+    ocrapt_contamination: null
+    ocrapt_min_contamination: null
+    threshold_method: max_val_loss
+    use_dst_node_loss: true
+    use_kmeans: false
+  node_tw_evaluation:
+    kmeans_top_K: 3
+    threshold_method: max_val_loss
+    use_dst_node_loss: true
+    use_kmeans: true
+  queue_evaluation:
+    _kairos_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/kairos_dir/
+    _precision_recall_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/precision_recall_dir/
+    _predicted_queues_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/predicted_queues_dir/
+    _queues_dir: velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3/queues_dir/
+    kairos_idf_queue:
+      include_test_set_in_IDF: true
+    provnet_lof_queue:
+      queue_arg: null
+    queue_threshold: 20
+    used_method: kairos_idf_queue
+  tw_evaluation:
+    threshold_method: null
+  used_method: node_evaluation
+  viz_malicious_nodes: false
+experiment:
+  uncertainty:
+    bagged_ensemble:
+      iterations: null
+      min_num_days: null
+    deep_ensemble:
+      iterations: null
+      method: null
+      restart_from: null
+    hyperparameter:
+      delta: null
+      hyperparameters: null
+      iterations: null
+    mc_dropout:
+      dropout: null
+      iterations: null
+  used_method: none
+feat_inference:
+  _edge_embeds_dir: velox_seeds/feat_inference/THEIA_E3/feat_inference/6e7ef17ddeca92f127f1205ba35087920d33a47c2747f007d7e6cf73c0194451/edge_embeds/
+  _logs_dir: velox_seeds/feat_inference/THEIA_E3/feat_inference/6e7ef17ddeca92f127f1205ba35087920d33a47c2747f007d7e6cf73c0194451/logs/
+  _model_dir: velox_seeds/feat_inference/THEIA_E3/feat_inference/6e7ef17ddeca92f127f1205ba35087920d33a47c2747f007d7e6cf73c0194451/stored_models/
+  _task_path: velox_seeds/feat_inference/THEIA_E3/feat_inference/6e7ef17ddeca92f127f1205ba35087920d33a47c2747f007d7e6cf73c0194451
+  to_remove: true
+featurization:
+  _logs_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/logs/
+  _model_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/stored_models/
+  _task_path: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3
+  alacarte:
+    _random_walk_corpus_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/random_walks/random_walk_corpus/
+    _random_walk_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/random_walks/
+    _vec_graphs_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/vectorized/
+    add_paths: false
+    compute_loss: true
+    context_window_size: 5
+    epochs: null
+    min_count: 0
+    num_walks: 10
+    num_workers: 1
+    use_skip_gram: true
+    walk_length: 30
+  doc2vec:
+    alpha: 0.025
+    epochs: null
+    include_neighbors: false
+  emb_dim: 256
+  epochs: 50
+  fasttext:
+    alpha: 0.01
+    min_count: 2
+    negative: 3
+    num_workers: 1
+    use_pretrained_fb_model: false
+    window_size: 3
+  flash:
+    min_count: 1
+    workers: 15
+  hierarchical_hashing: {}
+  magic: {}
+  multi_dataset_training: null
+  ocrapt_features:
+    use_cumulative_active_time: null
+    use_lifespan: null
+  only_ones: {}
+  only_type: {}
+  seed: 1
+  temporal_rw:
+    _random_walk_corpus_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/random_walks/random_walk_corpus/
+    _random_walk_dir: velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3/random_walks/
+    compute_loss: true
+    decline_rate: 30
+    epochs: null
+    half_life: 1
+    min_count: 1
+    negative: 5
+    num_walks: 10
+    time_weight: uniform
+    trw_workers: 8
+    use_skip_gram: true
+    walk_length: 30
+    window_size: 5
+    wv_workers: 6
+  training_split: train
+  used_method: word2vec
+  word2vec:
+    alpha: 0.025
+    compute_loss: true
+    decline_rate: 30
+    epochs: null
+    min_count: 1
+    negative: 5
+    num_workers: 1
+    use_skip_gram: true
+    window_size: 5
+postprocessing:
+  _logs_dir: velox_seeds/postprocessing/postprocessing/cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6/THEIA_E3/logs/
+  _task_path: velox_seeds/postprocessing/postprocessing/cd372fb85148700fa88095e3492d3f9f5beb43e555e5ff26d95f5a6adc36f8e6/THEIA_E3
+training:
+  _edge_losses_dir: velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3/edge_losses/
+  _logs_dir: velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3/logs/
+  _magic_dir: velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3/magic/
+  _task_path: velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3
+  _trained_models_dir: velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3/trained_models/
+  decoder:
+    detect_edge_few_shot:
+      decoder: null
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+    few_shot:
+      decoder:
+        detect_edge_few_shot:
+          decoder: edge_mlp
+          edge_mlp:
+            architecture_str: linear(0.5) | relu
+            src_dst_projection_coef: 1
+          inner_product: {}
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: linear(1.0) | relu
+          nodlink: {}
+          none: {}
+        one_class:
+          beta: null
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          eps: null
+          inner_product: {}
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+          warmup: null
+        predict_edge_contrastive:
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product:
+            dropout: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        predict_edge_type:
+          balanced_loss: null
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+          use_triplet_types: null
+        predict_masked_struct:
+          balanced_loss: null
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          loss: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        predict_node_type:
+          balanced_loss: null
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        reconstruct_edge_embeddings:
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          loss: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        reconstruct_masked_features:
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          loss: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          mask_rate: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        reconstruct_node_embeddings:
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          loss: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        reconstruct_node_features:
+          decoder: null
+          edge_mlp:
+            architecture_str: null
+            src_dst_projection_coef: null
+          inner_product: {}
+          loss: null
+          magic_gat:
+            activation: null
+            alpha_l: null
+            negative_slope: null
+            num_heads: null
+            num_layers: null
+          node_mlp:
+            architecture_str: null
+          nodlink: {}
+          none: {}
+        used_methods: detect_edge_few_shot
+      freeze_encoder: true
+      include_attacks_in_ssl_training: false
+      lr_few_shot: 0.001
+      num_epochs_few_shot: 50
+      patience_few_shot: 5
+      weight_decay_few_shot: 1.0e-05
+    one_class:
+      beta: null
+      decoder: null
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      eps: null
+      inner_product: {}
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+      warmup: null
+    predict_edge_contrastive:
+      decoder: inner_product
+      edge_mlp:
+        architecture_str: linear(0.5) | relu
+        src_dst_projection_coef: 1
+      inner_product:
+        dropout: 0.0
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+    predict_edge_type:
+      balanced_loss: null
+      decoder: edge_mlp
+      edge_mlp:
+        architecture_str: linear(0.5) | relu
+        src_dst_projection_coef: 2
+      inner_product: {}
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+      use_triplet_types: false
+    predict_masked_struct:
+      balanced_loss: null
+      decoder: null
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      loss: null
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+    predict_node_type:
+      balanced_loss: false
+      decoder: node_mlp
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: none
+      nodlink: {}
+      none: {}
+    reconstruct_edge_embeddings:
+      decoder: edge_mlp
+      edge_mlp:
+        architecture_str: linear(0.5) | relu
+        src_dst_projection_coef: 1
+      inner_product: {}
+      loss: MSE
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+    reconstruct_masked_features:
+      decoder: null
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      loss: null
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      mask_rate: null
+      node_mlp:
+        architecture_str: null
+      nodlink: {}
+      none: {}
+    reconstruct_node_embeddings:
+      decoder: node_mlp
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      loss: MSE
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: none
+      nodlink: {}
+      none: {}
+    reconstruct_node_features:
+      decoder: node_mlp
+      edge_mlp:
+        architecture_str: null
+        src_dst_projection_coef: null
+      inner_product: {}
+      loss: MSE
+      magic_gat:
+        activation: null
+        alpha_l: null
+        negative_slope: null
+        num_heads: null
+        num_layers: null
+      node_mlp:
+        architecture_str: none
+      nodlink: {}
+      none: {}
+    use_few_shot: false
+    used_methods: predict_edge_type
+  deterministic: false
+  encoder:
+    custom_mlp:
+      architecture_str: none
+    dropout: 0.3
+    gat:
+      activation: relu
+      concat: true
+      flow: source_to_target
+      num_heads: 8
+      num_layers: 2
+    gin:
+      activation: relu
+      num_layers: 2
+    glstm: {}
+    graph_attention:
+      activation: relu
+      concat: true
+      flow: source_to_target
+      num_heads: 8
+      num_layers: 2
+    magic_gat:
+      activation: prelu
+      alpha_l: 3.0
+      negative_slope: 0.2
+      num_heads: 4
+      num_layers: 3
+    none: {}
+    rcaid_gat: {}
+    rgcn:
+      activation: null
+      num_layers: null
+    rgcn_per_type:
+      activation: null
+      num_layers: null
+    sage:
+      activation: relu
+      num_layers: 2
+    sum_aggregation: {}
+    tgn:
+      project_src_dst: true
+      tgn_memory_dim: 100
+      tgn_time_dim: 100
+      use_memory: false
+      use_node_feats_in_gnn: true
+      use_time_order_encoding: false
+    used_methods: none
+    x_is_tuple: false
+  grad_accumulation: 1
+  inference_device: null
+  lr: 0.001
+  node_hid_dim: 320
+  node_out_dim: 320
+  num_epochs: 12
+  ocrapt_early_stop:
+    enabled: null
+    max_delta: null
+    min_delta: null
+    patience: null
+  patience: 3
+  seed: 1
+  used_method: default
+  weight_decay: 1.0e-05
+training_loop:
+  run_evaluation: each_epoch
+transformation:
+  _graphs_dir: velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2/nx/
+  _logs_dir: velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2/logs/
+  _task_path: velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2
+  rcaid_pseudo_graph:
+    use_pruning: null
+  synthetic_attack_naive:
+    num_attacks: 1
+    num_malicious_process: 5
+    num_unauthorized_file_access: 20
+    process_selection_method: random
+  used_methods: none
+triage:
+  _logs_dir: velox_seeds/triage/triage/7bd5d45155a823af80f5928e8d45c4e09954f77c247660c3eedd013f3d7e9134/THEIA_E3/logs/
+  _task_path: velox_seeds/triage/triage/7bd5d45155a823af80f5928e8d45c4e09954f77c247660c3eedd013f3d7e9134/THEIA_E3
+  _tracing_graph_dir: velox_seeds/triage/triage/7bd5d45155a823af80f5928e8d45c4e09954f77c247660c3eedd013f3d7e9134/THEIA_E3/tracing_graphs
+  depimpact:
+    score_method: null
+    used_method: null
+    visualize: null
+    workers: null
+  ocrapt:
+    abnormality_level: null
+    correlate_anomalous_once: null
+    max_edges: null
+    min_nodes: null
+    num_hops: null
+    remove_duplicated_subgraph: null
+    top_k: null
+  used_method: null

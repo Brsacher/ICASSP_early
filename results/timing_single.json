@@ -1,0 +1,26 @@
+[
+  {
+    "dataset": "CADETS_E3",
+    "seed": 0,
+    "rearm": "reset",
+    "cap": "q99",
+    "prior": "type",
+    "workers": 1,
+    "wall_s": 51.68524946318939,
+    "n_events": 1987981,
+    "events_per_s": 38463.217661662915,
+    "note": "single process; all test days; reset/fir replay all b"
+  },
+  {
+    "dataset": "THEIA_E3",
+    "seed": 0,
+    "rearm": "reset",
+    "cap": "q99",
+    "prior": "kind",
+    "workers": 1,
+    "wall_s": 90.99402220407501,
+    "n_events": 5002043,
+    "events_per_s": 54971.11655073087,
+    "note": "single process; all test days; reset/fir replay all b"
+  }
+]

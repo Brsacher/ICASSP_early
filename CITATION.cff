@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Early Birds Catch Worms: Early Detection of Multi-Stage Intrusions via Evidence-Carrying Host Event Graphs"
+authors:
+  - family-names: Liu
+    given-names: Chengliang
+  - family-names: Zhang
+    given-names: Zhiwei
+  - family-names: Wang
+    given-names: Fengshuan
+  - family-names: Chen
+    given-names: Yingyu
+  - family-names: He
+    given-names: Ji
+  - family-names: Shen
+    given-names: Yulong
+year: 2026
+url: "https://github.com/Brsacher/ICASSP_early"

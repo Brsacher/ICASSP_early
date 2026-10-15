@@ -1,0 +1,4213 @@
+{
+  "A": {
+    "CADETS_E3": {
+      "FA@5_vs_D1@5": {
+        "tag": "CADETS_E3 FA@5 vs D1@5",
+        "n_both": 8,
+        "n_fa_only": 6,
+        "n_d1_only": 1,
+        "n_none": 0,
+        "list": {
+          "both": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 3
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 4
+            }
+          ],
+          "d1_only": [
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 2
+            }
+          ],
+          "none": []
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 14,
+            "mean": 0.22002551020408162,
+            "median": 0.13392857142857142
+          },
+          "D1": {
+            "n": 9,
+            "mean": 0.19527116402116404,
+            "median": 0.28125
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 8,
+            "mean": 0.19475446428571427,
+            "median": 0.125
+          },
+          "D1": {
+            "n": 8,
+            "mean": 0.21186755952380953,
+            "median": 0.28125
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 4,
+          "same": 1,
+          "FA_later": 3
+        },
+        "fa_only": {
+          "mean_rho": 0.2537202380952381,
+          "mean_d": 261.075665415,
+          "n": 6
+        }
+      },
+      "FA@5_vs_D1@20": {
+        "tag": "CADETS_E3 FA@5 vs D1@20",
+        "n_both": 9,
+        "n_fa_only": 5,
+        "n_d1_only": 1,
+        "n_none": 0,
+        "list": {
+          "both": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 4
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 0
+            }
+          ],
+          "d1_only": [
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 2
+            }
+          ],
+          "none": []
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 14,
+            "mean": 0.22002551020408162,
+            "median": 0.13392857142857142
+          },
+          "D1": {
+            "n": 10,
+            "mean": 0.18199404761904764,
+            "median": 0.171875
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 9,
+            "mean": 0.2113095238095238,
+            "median": 0.125
+          },
+          "D1": {
+            "n": 9,
+            "mean": 0.19527116402116404,
+            "median": 0.28125
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 4,
+          "same": 1,
+          "FA_later": 4
+        },
+        "fa_only": {
+          "mean_rho": 0.23571428571428568,
+          "mean_d": 263.1238678222,
+          "n": 5
+        }
+      },
+      "FA@5_vs_D1@0": {
+        "tag": "CADETS_E3 FA@5 vs D1@0",
+        "n_both": 8,
+        "n_fa_only": 6,
+        "n_d1_only": 0,
+        "n_none": 1,
+        "list": {
+          "both": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 3
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 1
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 3
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 2
+            },
+            {
+              "attack": "Nginx_Backdoor_06",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_12",
+              "seed": 4
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 0
+            },
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 4
+            }
+          ],
+          "d1_only": [],
+          "none": [
+            {
+              "attack": "Nginx_Backdoor_13",
+              "seed": 2
+            }
+          ]
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 14,
+            "mean": 0.22002551020408162,
+            "median": 0.13392857142857142
+          },
+          "D1": {
+            "n": 8,
+            "mean": 0.27771577380952384,
+            "median": 0.28125
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 8,
+            "mean": 0.19475446428571427,
+            "median": 0.125
+          },
+          "D1": {
+            "n": 8,
+            "mean": 0.27771577380952384,
+            "median": 0.28125
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 4,
+          "same": 4,
+          "FA_later": 0
+        },
+        "fa_only": {
+          "mean_rho": 0.2537202380952381,
+          "mean_d": 261.075665415,
+          "n": 6
+        }
+      }
+    },
+    "THEIA_E3": {
+      "FA@5_vs_D1@5": {
+        "tag": "THEIA_E3 FA@5 vs D1@5",
+        "n_both": 5,
+        "n_fa_only": 1,
+        "n_d1_only": 0,
+        "n_none": 4,
+        "list": {
+          "both": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 0
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 2
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 3
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 4
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 0
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 2
+            }
+          ],
+          "d1_only": [],
+          "none": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 3
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 4
+            }
+          ]
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 6,
+            "mean": 0.29133936070352257,
+            "median": 0.1592744923669779
+          },
+          "D1": {
+            "n": 5,
+            "mean": 0.15088928412627833,
+            "median": 0.00641025641025641
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 5,
+            "mean": 0.34960723284422707,
+            "median": 0.31213872832369943
+          },
+          "D1": {
+            "n": 5,
+            "mean": 0.15088928412627833,
+            "median": 0.00641025641025641
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 0,
+          "same": 3,
+          "FA_later": 2
+        },
+        "fa_only": {
+          "mean_rho": 0.0,
+          "mean_d": 31.824950275,
+          "n": 1
+        }
+      },
+      "FA@5_vs_D1@20": {
+        "tag": "THEIA_E3 FA@5 vs D1@20",
+        "n_both": 5,
+        "n_fa_only": 1,
+        "n_d1_only": 0,
+        "n_none": 4,
+        "list": {
+          "both": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 0
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 2
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 3
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 4
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 0
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 2
+            }
+          ],
+          "d1_only": [],
+          "none": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 3
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 4
+            }
+          ]
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 6,
+            "mean": 0.29133936070352257,
+            "median": 0.1592744923669779
+          },
+          "D1": {
+            "n": 5,
+            "mean": 0.15088928412627833,
+            "median": 0.00641025641025641
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 5,
+            "mean": 0.34960723284422707,
+            "median": 0.31213872832369943
+          },
+          "D1": {
+            "n": 5,
+            "mean": 0.15088928412627833,
+            "median": 0.00641025641025641
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 0,
+          "same": 3,
+          "FA_later": 2
+        },
+        "fa_only": {
+          "mean_rho": 0.0,
+          "mean_d": 31.824950275,
+          "n": 1
+        }
+      },
+      "FA@5_vs_D1@0": {
+        "tag": "THEIA_E3 FA@5 vs D1@0",
+        "n_both": 4,
+        "n_fa_only": 2,
+        "n_d1_only": 0,
+        "n_none": 4,
+        "list": {
+          "both": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 0
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 3
+            },
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 4
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 0
+            }
+          ],
+          "fa_only": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 2
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 2
+            }
+          ],
+          "d1_only": [],
+          "none": [
+            {
+              "attack": "Browser_Extension_Drakon_Dropper",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 1
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 3
+            },
+            {
+              "attack": "Firefox_Backdoor_Drakon_In_Memory",
+              "seed": 4
+            }
+          ]
+        },
+        "rho_detected": {
+          "FA": {
+            "n": 6,
+            "mean": 0.29133936070352257,
+            "median": 0.1592744923669779
+          },
+          "D1": {
+            "n": 4,
+            "mean": 0.3184192974655402,
+            "median": 0.1592744923669779
+          }
+        },
+        "rho_both": {
+          "FA": {
+            "n": 4,
+            "mean": 0.190214169260412,
+            "median": 0.1592744923669779
+          },
+          "D1": {
+            "n": 4,
+            "mean": 0.3184192974655402,
+            "median": 0.1592744923669779
+          }
+        },
+        "both_timing": {
+          "FA_earlier": 1,
+          "same": 3,
+          "FA_later": 0
+        },
+        "fa_only": {
+          "mean_rho": 0.4935897435897436,
+          "mean_d": 1177.8894728055,
+          "n": 2
+        }
+      }
+    }
+  },
+  "B": {
+    "E": {
+      "D1": {
+        "E": 0.4828373015873016,
+        "n_miss": 6,
+        "n": 15
+      },
+      "D2": {
+        "E": 0.5874007936507938,
+        "n_miss": 4,
+        "n": 15
+      },
+      "D3": {
+        "E": 0.5969246031746033,
+        "n_miss": 3,
+        "n": 15
+      },
+      "D4": {
+        "E": 0.7279761904761907,
+        "n_miss": 1,
+        "n": 15
+      }
+    },
+    "steps": [
+      {
+        "step": "\u2205\u2192D1",
+        "dE": 0.4828373015873016,
+        "E_after": 0.4828373015873016,
+        "n_changed": 9,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 1,
+            "rho_before": null,
+            "rho_after": 0.42857142857142855,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.047619047619047616,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0,
+            "rho_before": null,
+            "rho_after": 0.28125,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 1,
+            "rho_before": null,
+            "rho_after": 0.28125,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2,
+            "rho_before": null,
+            "rho_after": 0.28125,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.28125,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1,
+            "rho_before": null,
+            "rho_after": 0.0625,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 2,
+            "rho_before": null,
+            "rho_after": 0.0625,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.03125,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      },
+      {
+        "step": "D1\u2192D2",
+        "dE": 0.10456349206349219,
+        "E_after": 0.5874007936507938,
+        "n_changed": 15,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 0,
+            "rho_before": null,
+            "rho_after": 0.047619047619047616,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 1,
+            "rho_before": 0.42857142857142855,
+            "rho_after": 0.2857142857142857,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 2,
+            "rho_before": null,
+            "rho_after": 0.2857142857142857,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3,
+            "rho_before": 0.047619047619047616,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.14285714285714285,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0,
+            "rho_before": 0.28125,
+            "rho_after": 0.125,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 1,
+            "rho_before": 0.28125,
+            "rho_after": 0.07291666666666667,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2,
+            "rho_before": 0.28125,
+            "rho_after": 0.125,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3,
+            "rho_before": 0.28125,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.07291666666666667,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 0,
+            "rho_before": null,
+            "rho_after": 0.34375,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1,
+            "rho_before": 0.0625,
+            "rho_after": 0.34375,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 2,
+            "rho_before": 0.0625,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3,
+            "rho_before": 0.03125,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.34375,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      },
+      {
+        "step": "D2\u2192D3",
+        "dE": 0.00952380952380949,
+        "E_after": 0.5969246031746033,
+        "n_changed": 2,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 2,
+            "rho_before": 0.2857142857142857,
+            "rho_after": 0.5714285714285714,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.5714285714285714,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      },
+      {
+        "step": "D3\u2192D4",
+        "dE": 0.1310515873015874,
+        "E_after": 0.7279761904761907,
+        "n_changed": 4,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3,
+            "rho_before": 0.5714285714285714,
+            "rho_after": 0.42857142857142855,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.3958333333333333,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1,
+            "rho_before": 0.34375,
+            "rho_after": 0.0625,
+            "hit_before": true,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3,
+            "rho_before": null,
+            "rho_after": 0.0625,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      }
+    ],
+    "ladder": [
+      0.4828373015873016,
+      0.5874007936507938,
+      0.5969246031746033,
+      0.7279761904761907
+    ]
+  },
+  "C": {
+    "n": 37,
+    "n_chain_M": 34,
+    "cadets_b5": {
+      "n": 14,
+      "n_chain_M": 14
+    },
+    "n_entry": 17,
+    "n_cross": 7,
+    "by_channel": {
+      "D1": 17,
+      "D3": 20,
+      "D1+D3": 0
+    },
+    "rows": [
+      {
+        "W_alert": 8.96558016574469,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 2,
+        "chain_has_M": false,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 207384,
+        "is_entry": true,
+        "mal_inc_over_W": 0.0,
+        "mal_inc_sum": 0.0,
+        "n_events": 188,
+        "n_malicious": 0,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 6.556511882457425,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 207407,
+        "is_entry": true,
+        "mal_inc_over_W": 0.2505879590538145,
+        "mal_inc_sum": 1.6429829311370894,
+        "n_events": 33,
+        "n_malicious": 1,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 9.195389894203082,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 232632,
+        "is_entry": false,
+        "mal_inc_over_W": 0.1786746347942083,
+        "mal_inc_sum": 1.6429829311370894,
+        "n_events": 78,
+        "n_malicious": 1,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 6.7326649685415045,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 232639,
+        "is_entry": false,
+        "mal_inc_over_W": 0.6255646702495274,
+        "mal_inc_sum": 4.211717340946211,
+        "n_events": 50,
+        "n_malicious": 6,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 10.23342117428551,
+        "alert_proc": 370961,
+        "attack": "Nginx_Backdoor_13",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 114893,
+        "is_entry": false,
+        "mal_inc_over_W": 1.1055672379044887,
+        "mal_inc_sum": 11.313735181968141,
+        "n_events": 23,
+        "n_malicious": 15,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "handover",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 6.969882149969232,
+        "alert_proc": 356868,
+        "attack": "Nginx_Backdoor_13",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 112203,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0000000000000002,
+        "mal_inc_sum": 6.969882149969233,
+        "n_events": 7,
+        "n_malicious": 7,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 11.332530975341797,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 210201,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 11.332530975341797,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 1
+      },
+      {
+        "W_alert": 9.007415055621594,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 208657,
+        "is_entry": true,
+        "mal_inc_over_W": 0.5630858402737585,
+        "mal_inc_sum": 5.0719478752891884,
+        "n_events": 105,
+        "n_malicious": 5,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 1
+      },
+      {
+        "W_alert": 13.45077419281006,
+        "alert_proc": 354975,
+        "attack": "Nginx_Backdoor_12",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 233785,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 13.45077419281006,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 1
+      },
+      {
+        "W_alert": 8.035374389064604,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 232634,
+        "is_entry": false,
+        "mal_inc_over_W": 0.4693853271246893,
+        "mal_inc_sum": 3.7716868361804394,
+        "n_events": 43,
+        "n_malicious": 3,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 1
+      },
+      {
+        "W_alert": 13.120079040527344,
+        "alert_proc": 355357,
+        "attack": "Nginx_Backdoor_13",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 111753,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 13.120079040527344,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 1
+      },
+      {
+        "W_alert": 13.120079040527344,
+        "alert_proc": 355357,
+        "attack": "Nginx_Backdoor_13",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 111753,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 13.120079040527344,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 1
+      },
+      {
+        "W_alert": 7.134210630470388,
+        "alert_proc": 228725,
+        "attack": "Nginx_Backdoor_06",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 221229,
+        "is_entry": false,
+        "mal_inc_over_W": 1.4652361495046473,
+        "mal_inc_sum": 10.453303313945554,
+        "n_events": 130,
+        "n_malicious": 20,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "handover",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 4.69712221572459,
+        "alert_proc": 228725,
+        "attack": "Nginx_Backdoor_06",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 211625,
+        "is_entry": false,
+        "mal_inc_over_W": 1.1247449277631196,
+        "mal_inc_sum": 5.283064387219699,
+        "n_events": 108,
+        "n_malicious": 11,
+        "pred_kinds": [
+          "handover",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 15.559019088745115,
+        "alert_proc": 354975,
+        "attack": "Nginx_Backdoor_12",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 233785,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 15.559019088745115,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 2
+      },
+      {
+        "W_alert": 5.526605725652841,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 232640,
+        "is_entry": false,
+        "mal_inc_over_W": 0.6607991429444874,
+        "mal_inc_sum": 3.651976326903494,
+        "n_events": 14,
+        "n_malicious": 7,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 17.280460357666016,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 210201,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 17.280460357666016,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 17.280460357666016,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 210201,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 17.280460357666016,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 13.611538887023926,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 241997,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 13.611538887023926,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 13.611538887023926,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 241997,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 13.611538887023926,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 19.38259506225586,
+        "alert_proc": 355357,
+        "attack": "Nginx_Backdoor_13",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 111753,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 19.38259506225586,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 19.38259506225586,
+        "alert_proc": 355357,
+        "attack": "Nginx_Backdoor_13",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 111753,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 19.38259506225586,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 10.385094799976795,
+        "alert_proc": 211776,
+        "attack": "Nginx_Backdoor_06",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-06",
+        "entry_proc": 211776,
+        "idx": 208648,
+        "is_entry": true,
+        "mal_inc_over_W": 0.4125126756833503,
+        "mal_inc_sum": 4.283983243163675,
+        "n_events": 93,
+        "n_malicious": 3,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 4
+      },
+      {
+        "W_alert": 9.730576332644887,
+        "alert_proc": 337550,
+        "attack": "Nginx_Backdoor_12",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-12",
+        "entry_proc": 354877,
+        "idx": 232632,
+        "is_entry": false,
+        "mal_inc_over_W": 0.24356586990070653,
+        "mal_inc_sum": 2.3700362890958786,
+        "n_events": 36,
+        "n_malicious": 1,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 4
+      },
+      {
+        "W_alert": 9.561767190854944,
+        "alert_proc": 356868,
+        "attack": "Nginx_Backdoor_13",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "CADETS_E3",
+        "day": "2018-04-13",
+        "entry_proc": 355357,
+        "idx": 112204,
+        "is_entry": false,
+        "mal_inc_over_W": 0.995681206092981,
+        "mal_inc_sum": 9.520471888970746,
+        "n_events": 8,
+        "n_malicious": 7,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 4
+      },
+      {
+        "W_alert": 11.893720626831056,
+        "alert_proc": 282590,
+        "attack": "Firefox_Backdoor_Drakon_In_Memory",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-10",
+        "entry_proc": 282484,
+        "idx": 131381,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 11.893720626831056,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 0
+      },
+      {
+        "W_alert": 11.893720626831056,
+        "alert_proc": 282590,
+        "attack": "Firefox_Backdoor_Drakon_In_Memory",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-10",
+        "entry_proc": 282484,
+        "idx": 131381,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 11.893720626831056,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 0
+      },
+      {
+        "W_alert": 11.201350407923972,
+        "alert_proc": 216310,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 812438,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0025900245467665,
+        "mal_inc_sum": 11.230362180437428,
+        "n_events": 255,
+        "n_malicious": 20,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "handover",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 11.201350407923972,
+        "alert_proc": 216310,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 812438,
+        "is_entry": false,
+        "mal_inc_over_W": 1.0025900245467665,
+        "mal_inc_sum": 11.230362180437428,
+        "n_events": 255,
+        "n_malicious": 20,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "handover",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 0
+      },
+      {
+        "W_alert": 8.475058597009332,
+        "alert_proc": 282484,
+        "attack": "Firefox_Backdoor_Drakon_In_Memory",
+        "b": 2,
+        "chain_has_M": false,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-10",
+        "entry_proc": 282484,
+        "idx": 117673,
+        "is_entry": true,
+        "mal_inc_over_W": 0.0,
+        "mal_inc_sum": 0.0,
+        "n_events": 81,
+        "n_malicious": 0,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 8.183617426164487,
+        "alert_proc": 282484,
+        "attack": "Firefox_Backdoor_Drakon_In_Memory",
+        "b": 5,
+        "chain_has_M": false,
+        "channel": "D3",
+        "cross_process": true,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-10",
+        "entry_proc": 282484,
+        "idx": 117671,
+        "is_entry": true,
+        "mal_inc_over_W": 0.0,
+        "mal_inc_sum": 0.0,
+        "n_events": 82,
+        "n_malicious": 0,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "creation",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 10.5161080241101,
+        "alert_proc": 216933,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 855957,
+        "is_entry": false,
+        "mal_inc_over_W": 0.6877590558588886,
+        "mal_inc_sum": 7.232548525972045,
+        "n_events": 11,
+        "n_malicious": 6,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 10.5161080241101,
+        "alert_proc": 216933,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D3",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 855957,
+        "is_entry": false,
+        "mal_inc_over_W": 0.6877590558588886,
+        "mal_inc_sum": 7.232548525972045,
+        "n_events": 11,
+        "n_malicious": 6,
+        "pred_kinds": [
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "prev",
+          "root"
+        ],
+        "seed": 2
+      },
+      {
+        "W_alert": 9.611773490905762,
+        "alert_proc": 216082,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 797113,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 9.611773490905762,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 9.611773490905762,
+        "alert_proc": 216082,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 797113,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 9.611773490905762,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 3
+      },
+      {
+        "W_alert": 9.503640174865724,
+        "alert_proc": 216082,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 2,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 797113,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 9.503640174865724,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 4
+      },
+      {
+        "W_alert": 9.503640174865724,
+        "alert_proc": 216082,
+        "attack": "Browser_Extension_Drakon_Dropper",
+        "b": 5,
+        "chain_has_M": true,
+        "channel": "D1",
+        "cross_process": false,
+        "dataset": "THEIA_E3",
+        "day": "2018-04-12",
+        "entry_proc": 216082,
+        "idx": 797113,
+        "is_entry": true,
+        "mal_inc_over_W": 1.0,
+        "mal_inc_sum": 9.503640174865724,
+        "n_events": 1,
+        "n_malicious": 1,
+        "pred_kinds": [],
+        "seed": 4
+      }
+    ]
+  },
+  "D": {
+    "attack_days": [
+      {
+        "day": "2018-04-06",
+        "attack": "Nginx_Backdoor_06",
+        "seed": 0,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 1,
+        "first_alert": "2018-04-06 11:19:53",
+        "mean_interval_s": null,
+        "d_cell": 12.096172059,
+        "p_placebo": {
+          "12.096172059": {
+            "n_starts": 304,
+            "n_hit": 0,
+            "p": 0.0,
+            "L": 12.096172059
+          },
+          "83.0": {
+            "n_starts": 297,
+            "n_hit": 0,
+            "p": 0.0,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 288,
+            "n_hit": 1,
+            "p": 0.003472222222222222,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-12",
+        "attack": "Nginx_Backdoor_12",
+        "seed": 0,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 1,
+        "first_alert": "2018-04-12 08:12:28",
+        "mean_interval_s": null,
+        "d_cell": 83.166196193,
+        "p_placebo": {
+          "83.166196193": {
+            "n_starts": 2110,
+            "n_hit": 8,
+            "p": 0.0037914691943127963,
+            "L": 83.166196193
+          },
+          "83.0": {
+            "n_starts": 2110,
+            "n_hit": 8,
+            "p": 0.0037914691943127963,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2101,
+            "n_hit": 17,
+            "p": 0.00809138505473584,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-06",
+        "attack": "Nginx_Backdoor_06",
+        "seed": 1,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 4,
+        "first_alert": "2018-04-06 10:33:32",
+        "mean_interval_s": 22.27999652833333,
+        "d_cell": 173.596169278,
+        "p_placebo": {
+          "173.596169278": {
+            "n_starts": 288,
+            "n_hit": 24,
+            "p": 0.08333333333333333,
+            "L": 173.596169278
+          },
+          "83.0": {
+            "n_starts": 297,
+            "n_hit": 14,
+            "p": 0.04713804713804714,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 288,
+            "n_hit": 24,
+            "p": 0.08333333333333333,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-12",
+        "attack": "Nginx_Backdoor_12",
+        "seed": 1,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 2,
+        "first_alert": "2018-04-12 08:12:25",
+        "mean_interval_s": 6.059998757,
+        "d_cell": 82.876190369,
+        "p_placebo": {
+          "82.876190369": {
+            "n_starts": 2110,
+            "n_hit": 9,
+            "p": 0.0042654028436018955,
+            "L": 82.876190369
+          },
+          "83.0": {
+            "n_starts": 2110,
+            "n_hit": 9,
+            "p": 0.0042654028436018955,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2101,
+            "n_hit": 18,
+            "p": 0.008567348881485007,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-06",
+        "attack": "Nginx_Backdoor_06",
+        "seed": 2,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 9,
+        "first_alert": "2018-04-06 10:33:23",
+        "mean_interval_s": 12.237498946125001,
+        "d_cell": 796.536154997,
+        "p_placebo": {
+          "796.536154997": {
+            "n_starts": 226,
+            "n_hit": 36,
+            "p": 0.1592920353982301,
+            "L": 796.536154997
+          },
+          "83.0": {
+            "n_starts": 297,
+            "n_hit": 18,
+            "p": 0.06060606060606061,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 288,
+            "n_hit": 28,
+            "p": 0.09722222222222222,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-12",
+        "attack": "Nginx_Backdoor_12",
+        "seed": 2,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 5,
+        "first_alert": "2018-04-12 08:06:15",
+        "mean_interval_s": 1459.6049677475,
+        "d_cell": 83.166196193,
+        "p_placebo": {
+          "83.166196193": {
+            "n_starts": 2110,
+            "n_hit": 19,
+            "p": 0.00900473933649289,
+            "L": 83.166196193
+          },
+          "83.0": {
+            "n_starts": 2110,
+            "n_hit": 19,
+            "p": 0.00900473933649289,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2101,
+            "n_hit": 37,
+            "p": 0.017610661589719183,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-06",
+        "attack": "Nginx_Backdoor_06",
+        "seed": 3,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 3,
+        "first_alert": "2018-04-06 10:33:36",
+        "mean_interval_s": 42.42499591,
+        "d_cell": 528.956163948,
+        "p_placebo": {
+          "528.956163948": {
+            "n_starts": 253,
+            "n_hit": 36,
+            "p": 0.1422924901185771,
+            "L": 528.956163948
+          },
+          "83.0": {
+            "n_starts": 297,
+            "n_hit": 17,
+            "p": 0.05723905723905724,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 288,
+            "n_hit": 26,
+            "p": 0.09027777777777778,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-12",
+        "attack": "Nginx_Backdoor_12",
+        "seed": 3,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 1,
+        "first_alert": "2018-04-12 08:12:28",
+        "mean_interval_s": null,
+        "d_cell": 984.146170955,
+        "p_placebo": {
+          "984.146170955": {
+            "n_starts": 2020,
+            "n_hit": 39,
+            "p": 0.019306930693069307,
+            "L": 984.146170955
+          },
+          "83.0": {
+            "n_starts": 2110,
+            "n_hit": 8,
+            "p": 0.0037914691943127963,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2101,
+            "n_hit": 17,
+            "p": 0.00809138505473584,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-06",
+        "attack": "Nginx_Backdoor_06",
+        "seed": 4,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 5,
+        "first_alert": "2018-04-06 10:33:32",
+        "mean_interval_s": 22.217498427749998,
+        "d_cell": 173.276168307,
+        "p_placebo": {
+          "173.276168307": {
+            "n_starts": 288,
+            "n_hit": 27,
+            "p": 0.09375,
+            "L": 173.276168307
+          },
+          "83.0": {
+            "n_starts": 297,
+            "n_hit": 17,
+            "p": 0.05723905723905724,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 288,
+            "n_hit": 27,
+            "p": 0.09375,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-12",
+        "attack": "Nginx_Backdoor_12",
+        "seed": 4,
+        "n_mal_proc": 1,
+        "n_alert_before_t0": 2,
+        "first_alert": "2018-04-12 08:12:25",
+        "mean_interval_s": 6.069999947,
+        "d_cell": 82.876190369,
+        "p_placebo": {
+          "82.876190369": {
+            "n_starts": 2110,
+            "n_hit": 9,
+            "p": 0.0042654028436018955,
+            "L": 82.876190369
+          },
+          "83.0": {
+            "n_starts": 2110,
+            "n_hit": 9,
+            "p": 0.0042654028436018955,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2101,
+            "n_hit": 18,
+            "p": 0.008567348881485007,
+            "L": 174.0
+          }
+        }
+      }
+    ],
+    "other_days": [
+      {
+        "day": "2018-04-10",
+        "seed": 0,
+        "has_alert": false
+      },
+      {
+        "day": "2018-04-11",
+        "seed": 0,
+        "has_alert": true,
+        "n_alert": 2,
+        "first_alert": "2018-04-11 17:26:45",
+        "mean_interval_s": 0.0,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 222,
+            "n_hit": 1,
+            "p": 0.0045045045045045045,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 213,
+            "n_hit": 1,
+            "p": 0.004694835680751174,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-13",
+        "seed": 0,
+        "has_alert": true,
+        "n_alert": 0,
+        "first_alert": "none",
+        "mean_interval_s": null,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-10",
+        "seed": 1,
+        "has_alert": true,
+        "n_alert": 10,
+        "first_alert": "2018-04-10 18:10:50",
+        "mean_interval_s": 17.668888573444445,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 2975,
+            "n_hit": 15,
+            "p": 0.005042016806722689,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2966,
+            "n_hit": 18,
+            "p": 0.006068779501011463,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-11",
+        "seed": 1,
+        "has_alert": false
+      },
+      {
+        "day": "2018-04-13",
+        "seed": 1,
+        "has_alert": true,
+        "n_alert": 0,
+        "first_alert": "none",
+        "mean_interval_s": null,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-10",
+        "seed": 2,
+        "has_alert": true,
+        "n_alert": 22,
+        "first_alert": "2018-04-10 16:44:48",
+        "mean_interval_s": 254.39237521628573,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 2975,
+            "n_hit": 25,
+            "p": 0.008403361344537815,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2966,
+            "n_hit": 36,
+            "p": 0.012137559002022926,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-11",
+        "seed": 2,
+        "has_alert": false
+      },
+      {
+        "day": "2018-04-13",
+        "seed": 2,
+        "has_alert": true,
+        "n_alert": 0,
+        "first_alert": "none",
+        "mean_interval_s": null,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-10",
+        "seed": 3,
+        "has_alert": true,
+        "n_alert": 8,
+        "first_alert": "2018-04-10 18:10:52",
+        "mean_interval_s": 25.438570927285713,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 2975,
+            "n_hit": 14,
+            "p": 0.004705882352941176,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2966,
+            "n_hit": 18,
+            "p": 0.006068779501011463,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-11",
+        "seed": 3,
+        "has_alert": false
+      },
+      {
+        "day": "2018-04-13",
+        "seed": 3,
+        "has_alert": true,
+        "n_alert": 0,
+        "first_alert": "none",
+        "mean_interval_s": null,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-10",
+        "seed": 4,
+        "has_alert": true,
+        "n_alert": 10,
+        "first_alert": "2018-04-10 18:10:50",
+        "mean_interval_s": 20.00888835188889,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 2975,
+            "n_hit": 14,
+            "p": 0.004705882352941176,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 2966,
+            "n_hit": 18,
+            "p": 0.006068779501011463,
+            "L": 174.0
+          }
+        }
+      },
+      {
+        "day": "2018-04-11",
+        "seed": 4,
+        "has_alert": false
+      },
+      {
+        "day": "2018-04-13",
+        "seed": 4,
+        "has_alert": true,
+        "n_alert": 0,
+        "first_alert": "none",
+        "mean_interval_s": null,
+        "p_placebo": {
+          "83.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 83.0
+          },
+          "174.0": {
+            "n_starts": 0,
+            "n_hit": 0,
+            "p": null,
+            "L": 174.0
+          }
+        }
+      }
+    ]
+  },
+  "E": {
+    "CADETS_E3": {
+      "2": {
+        "D1": {
+          "F": 1.25,
+          "F_prime": 1.25,
+          "per_seed_F": [
+            1.25,
+            3.25,
+            0.5,
+            9.5,
+            1.25
+          ],
+          "per_seed_Fp": [
+            1.25,
+            3.25,
+            0.5,
+            9.5,
+            1.25
+          ]
+        },
+        "D3": {
+          "F": 3.25,
+          "F_prime": 3.75,
+          "per_seed_F": [
+            4.75,
+            2.0,
+            3.25,
+            5.75,
+            1.75
+          ],
+          "per_seed_Fp": [
+            4.75,
+            2.5,
+            3.75,
+            6.0,
+            2.0
+          ]
+        },
+        "D4": {
+          "F": 4.25,
+          "F_prime": 4.75,
+          "per_seed_F": [
+            5.0,
+            4.25,
+            3.5,
+            5.75,
+            2.0
+          ],
+          "per_seed_Fp": [
+            5.0,
+            4.75,
+            4.0,
+            6.0,
+            2.25
+          ]
+        }
+      },
+      "5": {
+        "D1": {
+          "F": 5.0,
+          "F_prime": 5.0,
+          "per_seed_F": [
+            2.25,
+            5.0,
+            12.75,
+            13.75,
+            3.5
+          ],
+          "per_seed_Fp": [
+            2.25,
+            5.0,
+            12.75,
+            13.75,
+            3.5
+          ]
+        },
+        "D3": {
+          "F": 12.0,
+          "F_prime": 12.5,
+          "per_seed_F": [
+            18.5,
+            6.75,
+            10.25,
+            12.0,
+            21.75
+          ],
+          "per_seed_Fp": [
+            19.0,
+            7.25,
+            10.75,
+            12.5,
+            22.25
+          ]
+        },
+        "D4": {
+          "F": 12.0,
+          "F_prime": 12.5,
+          "per_seed_F": [
+            18.75,
+            9.0,
+            10.5,
+            12.0,
+            22.0
+          ],
+          "per_seed_Fp": [
+            19.25,
+            9.5,
+            11.0,
+            12.5,
+            22.5
+          ]
+        }
+      },
+      "20": {
+        "D1": {
+          "F": 15.0,
+          "F_prime": 15.0,
+          "per_seed_F": [
+            21.25,
+            15.0,
+            12.75,
+            40.25,
+            11.75
+          ],
+          "per_seed_Fp": [
+            21.25,
+            15.0,
+            12.75,
+            40.25,
+            11.75
+          ]
+        },
+        "D3": {
+          "F": 34.5,
+          "F_prime": 35.0,
+          "per_seed_F": [
+            34.5,
+            24.0,
+            25.25,
+            37.0,
+            40.5
+          ],
+          "per_seed_Fp": [
+            35.0,
+            24.5,
+            25.75,
+            37.5,
+            41.0
+          ]
+        },
+        "D4": {
+          "F": 34.5,
+          "F_prime": 35.0,
+          "per_seed_F": [
+            34.5,
+            26.0,
+            25.25,
+            37.0,
+            40.5
+          ],
+          "per_seed_Fp": [
+            35.0,
+            26.5,
+            25.75,
+            37.5,
+            41.0
+          ]
+        }
+      }
+    },
+    "THEIA_E3": {
+      "2": {
+        "D1": {
+          "F": 5.0,
+          "F_prime": 5.0,
+          "per_seed_F": [
+            28.0,
+            0.0,
+            5.0,
+            14.333333333333334,
+            4.0
+          ],
+          "per_seed_Fp": [
+            28.0,
+            0.0,
+            5.0,
+            14.333333333333334,
+            4.0
+          ]
+        },
+        "D3": {
+          "F": 16.333333333333332,
+          "F_prime": 16.333333333333332,
+          "per_seed_F": [
+            151.33333333333334,
+            3.3333333333333335,
+            562.6666666666666,
+            8.666666666666666,
+            16.333333333333332
+          ],
+          "per_seed_Fp": [
+            151.33333333333334,
+            3.3333333333333335,
+            562.6666666666666,
+            8.666666666666666,
+            16.333333333333332
+          ]
+        },
+        "D4": {
+          "F": 20.0,
+          "F_prime": 20.0,
+          "per_seed_F": [
+            154.66666666666666,
+            3.3333333333333335,
+            564.0,
+            12.666666666666666,
+            20.0
+          ],
+          "per_seed_Fp": [
+            154.66666666666666,
+            3.3333333333333335,
+            564.0,
+            12.666666666666666,
+            20.0
+          ]
+        }
+      },
+      "5": {
+        "D1": {
+          "F": 10.666666666666666,
+          "F_prime": 10.666666666666666,
+          "per_seed_F": [
+            28.0,
+            0.0,
+            10.666666666666666,
+            21.333333333333332,
+            4.333333333333333
+          ],
+          "per_seed_Fp": [
+            28.0,
+            0.0,
+            10.666666666666666,
+            21.333333333333332,
+            4.333333333333333
+          ]
+        },
+        "D3": {
+          "F": 16.333333333333332,
+          "F_prime": 16.333333333333332,
+          "per_seed_F": [
+            158.33333333333334,
+            4.0,
+            586.3333333333334,
+            8.666666666666666,
+            16.333333333333332
+          ],
+          "per_seed_Fp": [
+            158.33333333333334,
+            4.0,
+            586.3333333333334,
+            8.666666666666666,
+            16.333333333333332
+          ]
+        },
+        "D4": {
+          "F": 20.0,
+          "F_prime": 20.0,
+          "per_seed_F": [
+            161.66666666666666,
+            4.0,
+            587.6666666666666,
+            12.666666666666666,
+            20.0
+          ],
+          "per_seed_Fp": [
+            161.66666666666666,
+            4.0,
+            587.6666666666666,
+            12.666666666666666,
+            20.0
+          ]
+        }
+      },
+      "20": {
+        "D1": {
+          "F": 34.0,
+          "F_prime": 34.0,
+          "per_seed_F": [
+            34.666666666666664,
+            60.333333333333336,
+            19.333333333333332,
+            34.0,
+            8.0
+          ],
+          "per_seed_Fp": [
+            34.666666666666664,
+            60.333333333333336,
+            19.333333333333332,
+            34.0,
+            8.0
+          ]
+        },
+        "D3": {
+          "F": 21.333333333333332,
+          "F_prime": 21.333333333333332,
+          "per_seed_F": [
+            158.33333333333334,
+            4.0,
+            586.3333333333334,
+            21.333333333333332,
+            16.333333333333332
+          ],
+          "per_seed_Fp": [
+            158.33333333333334,
+            4.0,
+            586.3333333333334,
+            21.333333333333332,
+            16.333333333333332
+          ]
+        },
+        "D4": {
+          "F": 25.333333333333332,
+          "F_prime": 25.333333333333332,
+          "per_seed_F": [
+            161.66666666666666,
+            4.0,
+            587.6666666666666,
+            25.333333333333332,
+            20.0
+          ],
+          "per_seed_Fp": [
+            161.66666666666666,
+            4.0,
+            587.6666666666666,
+            25.333333333333332,
+            20.0
+          ]
+        }
+      }
+    }
+  },
+  "check_ab": {
+    "ok": true,
+    "flags": [],
+    "hits": {
+      "D1": 9,
+      "D2": 11,
+      "D3": 12,
+      "D4": 14
+    },
+    "E_raw": {
+      "D1": 0.4828373015873016,
+      "D2": 0.5874007936507938,
+      "D3": 0.5969246031746033,
+      "D4": 0.7279761904761907
+    }
+  },
+  "check_c": {
+    "ok": true,
+    "flags": []
+  }
+}

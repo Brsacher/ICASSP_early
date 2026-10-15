@@ -1,0 +1,210 @@
+{
+  "note": "Paths are relative to FA_ART_ROOT. firstalarm.freeze.paths reads runs[].paths.training, construction and evaluation. Regenerate with scripts/summarize_velox_seeds.py after a new training run; the hashes below are the runs that produced the published streams.",
+  "runs": [
+    {
+      "dataset": "CADETS_E3",
+      "seed": 0,
+      "featurization_seed": 0,
+      "training_seed": 0,
+      "run_config": "velox_seeds/evaluation/evaluation/8e20d6acd3aeff8ca9ef8e38aa7bff0965bc26b463bca5e2d5edeca4cca1fdea/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/CADETS_E3/construction/7ffdafa68ae1fbd7f8540dff8331adb4ac97873e003ee4ac79283517c1e35397",
+        "transformation": "velox_seeds/transformation/CADETS_E3/transformation/380c3a7a6b06c16fd8ef20242397cde028ac08b6dd218d8675f7fa7e3965c9a8",
+        "featurization": "velox_seeds/featurization/CADETS_E3/featurization/6cb54975a3d2d10e422a550b4fdcf29b634c680e3fa55f4954c59845ac6ab3ef",
+        "feat_inference": "velox_seeds/feat_inference/CADETS_E3/feat_inference/7b30b55ed6a7a117904651f7ade8ef7eb8db5239533cf6b708f45528d9cb0623",
+        "batching": "velox_seeds/batching/batching/893edd0681399463cd133f1aef78d2cf768c2859993c9ce7b568011234e16f3d/CADETS_E3",
+        "training": "velox_seeds/training/training/6a41598c88f0a65f169312640c3d26b5e7a493bb4e21ee570a471572f897d61a/CADETS_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/8e20d6acd3aeff8ca9ef8e38aa7bff0965bc26b463bca5e2d5edeca4cca1fdea/CADETS_E3"
+      },
+      "attacks": [
+        "Nginx_Backdoor_06",
+        "Nginx_Backdoor_12",
+        "Nginx_Backdoor_13"
+      ]
+    },
+    {
+      "dataset": "CADETS_E3",
+      "seed": 1,
+      "featurization_seed": 1,
+      "training_seed": 1,
+      "run_config": "velox_seeds/evaluation/evaluation/91cda7b9c1489f341f5a2b67928f86f288b81a3ae557f70118d1e414e663fed5/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/CADETS_E3/construction/7ffdafa68ae1fbd7f8540dff8331adb4ac97873e003ee4ac79283517c1e35397",
+        "transformation": "velox_seeds/transformation/CADETS_E3/transformation/380c3a7a6b06c16fd8ef20242397cde028ac08b6dd218d8675f7fa7e3965c9a8",
+        "featurization": "velox_seeds/featurization/CADETS_E3/featurization/87018f8521d33d3748dfdbb3dc3caf5f197ee2a1026ae5eea8010a95bb44ed4a",
+        "feat_inference": "velox_seeds/feat_inference/CADETS_E3/feat_inference/4a5a2d12b13085be71949e4432f2bb9857b1d3db2623f82842dff900b3296096",
+        "batching": "velox_seeds/batching/batching/b76e4abcc1e0c8d87d1babf77b70850b66fa6f6f010d8c453d52b90e4509c40d/CADETS_E3",
+        "training": "velox_seeds/training/training/d16854f1175673ed3ece7b93e19754c89bd15b3caeee882c6d1ad31f85ff1742/CADETS_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/91cda7b9c1489f341f5a2b67928f86f288b81a3ae557f70118d1e414e663fed5/CADETS_E3"
+      },
+      "attacks": [
+        "Nginx_Backdoor_06",
+        "Nginx_Backdoor_12",
+        "Nginx_Backdoor_13"
+      ]
+    },
+    {
+      "dataset": "CADETS_E3",
+      "seed": 2,
+      "featurization_seed": 2,
+      "training_seed": 2,
+      "run_config": "velox_seeds/evaluation/evaluation/e46a18d65884a6328ac7e0638b9eee26f7fe7a46f557103cd26019b3cc653ae0/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/CADETS_E3/construction/7ffdafa68ae1fbd7f8540dff8331adb4ac97873e003ee4ac79283517c1e35397",
+        "transformation": "velox_seeds/transformation/CADETS_E3/transformation/380c3a7a6b06c16fd8ef20242397cde028ac08b6dd218d8675f7fa7e3965c9a8",
+        "featurization": "velox_seeds/featurization/CADETS_E3/featurization/83da1c2c5f87d456e0ff7fd778706df15c93d0b83b7b516f2bd49225188f002e",
+        "feat_inference": "velox_seeds/feat_inference/CADETS_E3/feat_inference/c363f11da4ec63232bb943dbde5fdf31dba310ac5b46548f98c61639f003cb77",
+        "batching": "velox_seeds/batching/batching/452d9a40fa0129b300d4405b0246b77a681e1b1ffd9b85641095fb7b5cb7d948/CADETS_E3",
+        "training": "velox_seeds/training/training/34465b91843d67a867cf45180985e1ab52a69656f03790cb0a04ecb4430aa3af/CADETS_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/e46a18d65884a6328ac7e0638b9eee26f7fe7a46f557103cd26019b3cc653ae0/CADETS_E3"
+      },
+      "attacks": [
+        "Nginx_Backdoor_06",
+        "Nginx_Backdoor_12",
+        "Nginx_Backdoor_13"
+      ]
+    },
+    {
+      "dataset": "CADETS_E3",
+      "seed": 3,
+      "featurization_seed": 3,
+      "training_seed": 3,
+      "run_config": "velox_seeds/evaluation/evaluation/86f550614e404368488d86163a337bd790db4637fe8d372066eff1d09cffb872/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/CADETS_E3/construction/7ffdafa68ae1fbd7f8540dff8331adb4ac97873e003ee4ac79283517c1e35397",
+        "transformation": "velox_seeds/transformation/CADETS_E3/transformation/380c3a7a6b06c16fd8ef20242397cde028ac08b6dd218d8675f7fa7e3965c9a8",
+        "featurization": "velox_seeds/featurization/CADETS_E3/featurization/c25d638b119861ac66d55e3a2fc6c72c77e57d9fc8c626671ddaa3c02d0704b0",
+        "feat_inference": "velox_seeds/feat_inference/CADETS_E3/feat_inference/6bdb1602433e22512913504eef71a23d9573b692467679c6eb600c3628b7398f",
+        "batching": "velox_seeds/batching/batching/061f4b48292836784373876b4b7fbbf5d85dc5185deaaefaea256b0e64176cc3/CADETS_E3",
+        "training": "velox_seeds/training/training/b8091f34ffeddece3a0663af6755695db22259d3334438e39afce13c1c40bece/CADETS_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/86f550614e404368488d86163a337bd790db4637fe8d372066eff1d09cffb872/CADETS_E3"
+      },
+      "attacks": [
+        "Nginx_Backdoor_06",
+        "Nginx_Backdoor_12",
+        "Nginx_Backdoor_13"
+      ]
+    },
+    {
+      "dataset": "CADETS_E3",
+      "seed": 4,
+      "featurization_seed": 4,
+      "training_seed": 4,
+      "run_config": "velox_seeds/evaluation/evaluation/d1e559fcecebe9e3bf158baf9daa549c098064c54bf0adc56d4015370ef86467/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/CADETS_E3/construction/7ffdafa68ae1fbd7f8540dff8331adb4ac97873e003ee4ac79283517c1e35397",
+        "transformation": "velox_seeds/transformation/CADETS_E3/transformation/380c3a7a6b06c16fd8ef20242397cde028ac08b6dd218d8675f7fa7e3965c9a8",
+        "featurization": "velox_seeds/featurization/CADETS_E3/featurization/f7d57db78748f94b2ef22f9b38c59a7a1efb1ecd89259d642b04773fca758c23",
+        "feat_inference": "velox_seeds/feat_inference/CADETS_E3/feat_inference/0853e0868507799ffa85e457a17412e3cba03f28e151d44a3dac050444d69ff7",
+        "batching": "velox_seeds/batching/batching/b120e25d2a38cfb17252dca745f118dc2d782baab7141431fdf5b36e91f00272/CADETS_E3",
+        "training": "velox_seeds/training/training/0b6c5f60dc7912af56ccfdae3d6df8a7fd161679f105aeaf39f27775eeb8811e/CADETS_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/d1e559fcecebe9e3bf158baf9daa549c098064c54bf0adc56d4015370ef86467/CADETS_E3"
+      },
+      "attacks": [
+        "Nginx_Backdoor_06",
+        "Nginx_Backdoor_12",
+        "Nginx_Backdoor_13"
+      ]
+    },
+    {
+      "dataset": "THEIA_E3",
+      "seed": 0,
+      "featurization_seed": 0,
+      "training_seed": 0,
+      "run_config": "velox_seeds/evaluation/evaluation/be5ffc0d3bec8a61d4129d08dba382a19936851cf4e084b364652287d6896bd4/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086",
+        "transformation": "velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2",
+        "featurization": "velox_seeds/featurization/THEIA_E3/featurization/e1813dd638ef64ad95cb9ea902c5262b5cad187ae5f782ff1d96a8fa8e48f514",
+        "feat_inference": "velox_seeds/feat_inference/THEIA_E3/feat_inference/39ed12db92f832c1493b66f966c22fd42807ea55d52bf25a7a8985d59beecc8c",
+        "batching": "velox_seeds/batching/batching/ef3cffb1b4414094f23e3160a412f63276fa0cc0e6fb06111269f18d0d73f79b/THEIA_E3",
+        "training": "velox_seeds/training/training/7f6931bd3f251b1caefa9175887c53bdc067d37bc401de3b8032f6f8a698637c/THEIA_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/be5ffc0d3bec8a61d4129d08dba382a19936851cf4e084b364652287d6896bd4/THEIA_E3"
+      },
+      "attacks": [
+        "Browser_Extension_Drakon_Dropper",
+        "Firefox_Backdoor_Drakon_In_Memory"
+      ]
+    },
+    {
+      "dataset": "THEIA_E3",
+      "seed": 1,
+      "featurization_seed": 1,
+      "training_seed": 1,
+      "run_config": "velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086",
+        "transformation": "velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2",
+        "featurization": "velox_seeds/featurization/THEIA_E3/featurization/53bbb1e0b0612848c952a9dbf1b28b2bed1ffe3830da1310a068a919a238f8e3",
+        "feat_inference": "velox_seeds/feat_inference/THEIA_E3/feat_inference/6e7ef17ddeca92f127f1205ba35087920d33a47c2747f007d7e6cf73c0194451",
+        "batching": "velox_seeds/batching/batching/95249524837ea414c6b0d0673d1317b1959e8657c00e864ef22eb35bf32b7d78/THEIA_E3",
+        "training": "velox_seeds/training/training/7ab8b49e6693da9d4a87cc8b3d06a86e188843a7fd8b3ff48210f5a2d4b5abf2/THEIA_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/84b71ee22014a8c3594f234ab7a94bc09dc81dd5aa655e268db8ff8f4ca92585/THEIA_E3"
+      },
+      "attacks": [
+        "Browser_Extension_Drakon_Dropper",
+        "Firefox_Backdoor_Drakon_In_Memory"
+      ]
+    },
+    {
+      "dataset": "THEIA_E3",
+      "seed": 2,
+      "featurization_seed": 2,
+      "training_seed": 2,
+      "run_config": "velox_seeds/evaluation/evaluation/6f594f871212f5b4d8410c8717f02eacd42c651c818426c2678cb346ad25f1bb/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086",
+        "transformation": "velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2",
+        "featurization": "velox_seeds/featurization/THEIA_E3/featurization/27bf920a92d4feb37b94a45928bfbb007b238443621d1de8ed97d360b117be63",
+        "feat_inference": "velox_seeds/feat_inference/THEIA_E3/feat_inference/87d6f2d0b625752e73b2015d61cf7044698868acb21967394d259cc61dc53a54",
+        "batching": "velox_seeds/batching/batching/ef3daa6b68c1ec7d0b244b4f84878610d82d9b7a13a7c1c102bcc74bc8b7f6fd/THEIA_E3",
+        "training": "velox_seeds/training/training/83a710ab688de692c4ccce8fdb38dd864e38af28e5ace6e06f6e590cf097ebdc/THEIA_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/6f594f871212f5b4d8410c8717f02eacd42c651c818426c2678cb346ad25f1bb/THEIA_E3"
+      },
+      "attacks": [
+        "Browser_Extension_Drakon_Dropper",
+        "Firefox_Backdoor_Drakon_In_Memory"
+      ]
+    },
+    {
+      "dataset": "THEIA_E3",
+      "seed": 3,
+      "featurization_seed": 3,
+      "training_seed": 3,
+      "run_config": "velox_seeds/evaluation/evaluation/40dad62be0514a7055fca9a825ff05a0e25057d0e92733514b830e8b679413b8/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086",
+        "transformation": "velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2",
+        "featurization": "velox_seeds/featurization/THEIA_E3/featurization/8e2b6b4af6823cec62206cf977c8f43f058c55bf7d2f3a3042b809459e09c3f7",
+        "feat_inference": "velox_seeds/feat_inference/THEIA_E3/feat_inference/a34b617ce736ae1df16cb681f8cc3f86ec55dd03aeabc5bd344aefd9e7930f6b",
+        "batching": "velox_seeds/batching/batching/5f0a6e96911a895fcc1d0ce53db9e0bce0a5249dd7363082e99a3b16280b2f65/THEIA_E3",
+        "training": "velox_seeds/training/training/de1b7731134e68e3aea0841b54eb6c61eb1956286746e119d79512af254a37e5/THEIA_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/40dad62be0514a7055fca9a825ff05a0e25057d0e92733514b830e8b679413b8/THEIA_E3"
+      },
+      "attacks": [
+        "Browser_Extension_Drakon_Dropper",
+        "Firefox_Backdoor_Drakon_In_Memory"
+      ]
+    },
+    {
+      "dataset": "THEIA_E3",
+      "seed": 4,
+      "featurization_seed": 4,
+      "training_seed": 4,
+      "run_config": "velox_seeds/evaluation/evaluation/cdac8e89295023409f43148a395bfcca42158e43153e560fe705026ebe159a25/run_config.yml",
+      "paths": {
+        "construction": "velox_seeds/construction/THEIA_E3/construction/88c98589132e901c2cfb65f688c65baaa85f4550dbf987eadbbc672f1934c086",
+        "transformation": "velox_seeds/transformation/THEIA_E3/transformation/330ca3dbf6542b16fad47884c191e744fc26fb8c1404a36bd10ef6e62fdd45c2",
+        "featurization": "velox_seeds/featurization/THEIA_E3/featurization/aef69fdad09ad5595fbdee37144dd1d9c701b6d9f90ab74c9a4722adf9778d5c",
+        "feat_inference": "velox_seeds/feat_inference/THEIA_E3/feat_inference/85c7938d294238e1d7e52603c344aa28bee1f7ba5e79af02b37bd7b1510c7d4d",
+        "batching": "velox_seeds/batching/batching/e021777ee5625abd93a4db2c0141d9284579ecb997fcd137cd612f55bdc51ff0/THEIA_E3",
+        "training": "velox_seeds/training/training/ead3c742c4482a37e2ddc41cfebadd70fce6510366358ad62adb1d5f5990acf5/THEIA_E3",
+        "evaluation": "velox_seeds/evaluation/evaluation/cdac8e89295023409f43148a395bfcca42158e43153e560fe705026ebe159a25/THEIA_E3"
+      },
+      "attacks": [
+        "Browser_Extension_Drakon_Dropper",
+        "Firefox_Backdoor_Drakon_In_Memory"
+      ]
+    }
+  ]
+}

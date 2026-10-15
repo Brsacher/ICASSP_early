@@ -1,0 +1,6 @@
+artifacts/
+data/*.tar.zst
+results/cache/
+__pycache__/
+*.pyc
+*.log

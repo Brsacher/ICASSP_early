@@ -1,0 +1,39 @@
+{
+  "budgets": [
+    0,
+    1,
+    2,
+    5,
+    10,
+    20,
+    50
+  ],
+  "table_budgets": [
+    2,
+    5
+  ],
+  "epoch": 11,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "rearm": "reset",
+  "protocol": "P1",
+  "dataset": "THEIA_E3",
+  "cap": "q99",
+  "prior": "kind",
+  "switches": "cap on and prior by program name (both switches)",
+  "val_date": "2018-04-09",
+  "test_dates": [
+    "2018-04-10",
+    "2018-04-12",
+    "2018-04-13"
+  ],
+  "attack_dates": [
+    "2018-04-10",
+    "2018-04-12"
+  ]
+}

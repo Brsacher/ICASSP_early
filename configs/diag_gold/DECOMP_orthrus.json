@@ -1,0 +1,780 @@
+{
+  "A": {
+    "FA@5_vs_D1@5": {
+      "tag": "CADETS_E3 FA@5 vs D1@5",
+      "n_both": 3,
+      "n_fa_only": 0,
+      "n_d1_only": 2,
+      "n_none": 10,
+      "list": {
+        "both": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4
+          }
+        ],
+        "fa_only": [],
+        "d1_only": [
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2
+          }
+        ],
+        "none": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3
+          }
+        ]
+      },
+      "rho_detected": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 5,
+          "mean": 0.49553571428571425,
+          "median": 0.3541666666666667
+        }
+      },
+      "rho_both": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        }
+      },
+      "both_timing": {
+        "FA_earlier": 0,
+        "same": 3,
+        "FA_later": 0
+      },
+      "fa_only": {
+        "mean_rho": null,
+        "mean_d": null,
+        "n": 0
+      }
+    },
+    "FA@5_vs_D1@20": {
+      "tag": "CADETS_E3 FA@5 vs D1@20",
+      "n_both": 3,
+      "n_fa_only": 0,
+      "n_d1_only": 10,
+      "n_none": 2,
+      "list": {
+        "both": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4
+          }
+        ],
+        "fa_only": [],
+        "d1_only": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3
+          }
+        ],
+        "none": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 1
+          }
+        ]
+      },
+      "rho_detected": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 13,
+          "mean": 0.5401785714285714,
+          "median": 0.5714285714285714
+        }
+      },
+      "rho_both": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        }
+      },
+      "both_timing": {
+        "FA_earlier": 0,
+        "same": 3,
+        "FA_later": 0
+      },
+      "fa_only": {
+        "mean_rho": null,
+        "mean_d": null,
+        "n": 0
+      }
+    },
+    "FA@5_vs_D1@0": {
+      "tag": "CADETS_E3 FA@5 vs D1@0",
+      "n_both": 3,
+      "n_fa_only": 0,
+      "n_d1_only": 0,
+      "n_none": 12,
+      "list": {
+        "both": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4
+          }
+        ],
+        "fa_only": [],
+        "d1_only": [],
+        "none": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 3
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 0
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 1
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 2
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 3
+          }
+        ]
+      },
+      "rho_detected": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        }
+      },
+      "rho_both": {
+        "FA": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        },
+        "D1": {
+          "n": 3,
+          "mean": 0.589781746031746,
+          "median": 0.5714285714285714
+        }
+      },
+      "both_timing": {
+        "FA_earlier": 0,
+        "same": 3,
+        "FA_later": 0
+      },
+      "fa_only": {
+        "mean_rho": null,
+        "mean_d": null,
+        "n": 0
+      }
+    }
+  },
+  "B": {
+    "E": {
+      "D1": {
+        "E": 0.1681547619047619,
+        "n_miss": 10,
+        "n": 15
+      },
+      "D2": {
+        "E": 0.0,
+        "n_miss": 15,
+        "n": 15
+      },
+      "D3": {
+        "E": 0.0,
+        "n_miss": 15,
+        "n": 15
+      },
+      "D4": {
+        "E": 0.0820436507936508,
+        "n_miss": 12,
+        "n": 15
+      }
+    },
+    "steps": [
+      {
+        "step": "\u2205\u2192D1",
+        "dE": 0.1681547619047619,
+        "E_after": 0.1681547619047619,
+        "n_changed": 5,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.5714285714285714,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0,
+            "rho_before": null,
+            "rho_after": 0.3541666666666667,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2,
+            "rho_before": null,
+            "rho_after": 0.3541666666666667,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.3541666666666667,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.84375,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      },
+      {
+        "step": "D1\u2192D2",
+        "dE": -0.1681547619047619,
+        "E_after": 0.0,
+        "n_changed": 5,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4,
+            "rho_before": 0.5714285714285714,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 0,
+            "rho_before": 0.3541666666666667,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 2,
+            "rho_before": 0.3541666666666667,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4,
+            "rho_before": 0.3541666666666667,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4,
+            "rho_before": 0.84375,
+            "rho_after": null,
+            "hit_before": true,
+            "hit_after": false
+          }
+        ]
+      },
+      {
+        "step": "D2\u2192D3",
+        "dE": 0.0,
+        "E_after": 0.0,
+        "n_changed": 0,
+        "changed": []
+      },
+      {
+        "step": "D3\u2192D4",
+        "dE": 0.0820436507936508,
+        "E_after": 0.0820436507936508,
+        "n_changed": 3,
+        "changed": [
+          {
+            "attack": "Nginx_Backdoor_06",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.5714285714285714,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_12",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.3541666666666667,
+            "hit_before": false,
+            "hit_after": true
+          },
+          {
+            "attack": "Nginx_Backdoor_13",
+            "seed": 4,
+            "rho_before": null,
+            "rho_after": 0.84375,
+            "hit_before": false,
+            "hit_after": true
+          }
+        ]
+      }
+    ],
+    "ladder": [
+      0.1681547619047619,
+      0.0,
+      0.0,
+      0.0820436507936508
+    ]
+  },
+  "C": [
+    {
+      "seed": 0,
+      "pair": "q99_kind",
+      "h1_0": 35.94614410400391,
+      "cap_c": 5.491840690374491,
+      "h2_5": 48.200308209897486,
+      "h3_5": 48.21338014251745,
+      "h3_over_c": 8.77909299645576,
+      "n_capped_events_min": 9.0
+    },
+    {
+      "seed": 1,
+      "pair": "q99_kind",
+      "h1_0": 39.93508911132813,
+      "cap_c": 3.436056137084961,
+      "h2_5": 34.27075135341449,
+      "h3_5": 34.583029252349505,
+      "h3_over_c": 10.064745124242537,
+      "n_capped_events_min": 11.0
+    },
+    {
+      "seed": 2,
+      "pair": "q99_kind",
+      "h1_0": 91.19853210449222,
+      "cap_c": 17.334334469145283,
+      "h2_5": 94.9738882852787,
+      "h3_5": 94.9738882852787,
+      "h3_over_c": 5.4789463336091755,
+      "n_capped_events_min": 6.0
+    },
+    {
+      "seed": 3,
+      "pair": "q99_kind",
+      "h1_0": 27.54419326782227,
+      "cap_c": 2.7427443265914917,
+      "h2_5": 21.737651944160124,
+      "h3_5": 21.737651944160124,
+      "h3_over_c": 7.925511588305533,
+      "n_capped_events_min": 8.0
+    },
+    {
+      "seed": 4,
+      "pair": "q99_kind",
+      "h1_0": 23.482166290283207,
+      "cap_c": 5.1866697478294475,
+      "h2_5": 58.077172433734084,
+      "h3_5": 58.077172433734084,
+      "h3_over_c": 11.197391632277842,
+      "n_capped_events_min": 12.0
+    }
+  ],
+  "D": [
+    {
+      "attack": "Nginx_Backdoor_06",
+      "day": "2018-04-06",
+      "n_M": 21,
+      "loss_q50": 0.5938279628753662,
+      "loss_q99": 19.710576057434096,
+      "loss_max": 23.57604217529297,
+      "frac_gt_delta": 0.42857142857142855,
+      "sum_delta": 13.664675772009042,
+      "max_W_P": 25.435059811920045,
+      "h3_5": 48.21338014251745,
+      "max_W_over_h3": 0.527551889884814,
+      "seed": 0,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_12",
+      "day": "2018-04-12",
+      "n_M": 96,
+      "loss_q50": 0.7585833966732025,
+      "loss_q99": 32.38612880706787,
+      "loss_max": 32.954681396484375,
+      "frac_gt_delta": 0.4479166666666667,
+      "sum_delta": 86.33872357365404,
+      "max_W_P": 22.890329651069013,
+      "h3_5": 48.21338014251745,
+      "max_W_over_h3": 0.4747713100265075,
+      "seed": 0,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_13",
+      "day": "2018-04-13",
+      "n_M": 32,
+      "loss_q50": 0.5919357240200043,
+      "loss_q99": 16.76156197547915,
+      "loss_max": 22.797319412231445,
+      "frac_gt_delta": 0.34375,
+      "sum_delta": 19.717891454696773,
+      "max_W_P": 20.600421551615117,
+      "h3_5": 48.21338014251745,
+      "max_W_over_h3": 0.427276027748331,
+      "seed": 0,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_06",
+      "day": "2018-04-06",
+      "n_M": 21,
+      "loss_q50": 3.964597702026367,
+      "loss_q99": 5.908076381683351,
+      "loss_max": 6.238495826721191,
+      "frac_gt_delta": 0.047619047619047616,
+      "sum_delta": 3.436056137084961,
+      "max_W_P": 3.436056137084961,
+      "h3_5": 34.583029252349505,
+      "max_W_over_h3": 0.09935671372257021,
+      "seed": 1,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_12",
+      "day": "2018-04-12",
+      "n_M": 96,
+      "loss_q50": 1.1503424644470217,
+      "loss_q99": 6.238495826721191,
+      "loss_max": 6.238495826721191,
+      "frac_gt_delta": 0.14583333333333334,
+      "sum_delta": 45.99189233779907,
+      "max_W_P": 9.905159473419191,
+      "h3_5": 34.583029252349505,
+      "max_W_over_h3": 0.2864167682114271,
+      "seed": 1,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_13",
+      "day": "2018-04-13",
+      "n_M": 32,
+      "loss_q50": 3.3998599052429204,
+      "loss_q99": 5.726345686912539,
+      "loss_max": 6.238495826721191,
+      "frac_gt_delta": 0.03125,
+      "sum_delta": 3.436056137084961,
+      "max_W_P": 3.436056137084961,
+      "h3_5": 34.583029252349505,
+      "max_W_over_h3": 0.09935671372257021,
+      "seed": 1,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_06",
+      "day": "2018-04-06",
+      "n_M": 21,
+      "loss_q50": 0.6770567893981934,
+      "loss_q99": 25.138785171508793,
+      "loss_max": 26.80403709411621,
+      "frac_gt_delta": 0.19047619047619047,
+      "sum_delta": 45.50101091143571,
+      "max_W_P": 93.77630896803942,
+      "h3_5": 94.9738882852787,
+      "max_W_over_h3": 0.9873904360570976,
+      "seed": 2,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_12",
+      "day": "2018-04-12",
+      "n_M": 96,
+      "loss_q50": 0.7711816430091858,
+      "loss_q99": 35.05054988861083,
+      "loss_max": 38.45333099365234,
+      "frac_gt_delta": 0.34375,
+      "sum_delta": 150.63114340579784,
+      "max_W_P": 40.68317461671042,
+      "h3_5": 94.9738882852787,
+      "max_W_over_h3": 0.428361682892333,
+      "seed": 2,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_13",
+      "day": "2018-04-13",
+      "n_M": 32,
+      "loss_q50": 0.6873496770858765,
+      "loss_q99": 20.758402910232554,
+      "loss_max": 23.538551330566406,
+      "frac_gt_delta": 0.21875,
+      "sum_delta": 56.276144997978285,
+      "max_W_P": 53.179712735523815,
+      "h3_5": 94.9738882852787,
+      "max_W_over_h3": 0.559940355140402,
+      "seed": 2,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_06",
+      "day": "2018-04-06",
+      "n_M": 21,
+      "loss_q50": 0.7326151728630066,
+      "loss_q99": 17.660501194000258,
+      "loss_max": 21.240129470825195,
+      "frac_gt_delta": 0.3333333333333333,
+      "sum_delta": 10.071721617403798,
+      "max_W_P": 13.855264127254486,
+      "h3_5": 21.737651944160124,
+      "max_W_over_h3": 0.6373854988039193,
+      "seed": 3,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_12",
+      "day": "2018-04-12",
+      "n_M": 96,
+      "loss_q50": 0.7599393129348755,
+      "loss_q99": 16.676824569702134,
+      "loss_max": 20.93936538696289,
+      "frac_gt_delta": 0.34375,
+      "sum_delta": 41.83971302610951,
+      "max_W_P": 3.9050736725330357,
+      "h3_5": 21.737651944160124,
+      "max_W_over_h3": 0.17964560673638644,
+      "seed": 3,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_13",
+      "day": "2018-04-13",
+      "n_M": 32,
+      "loss_q50": 0.6077502071857452,
+      "loss_q99": 14.027506589889551,
+      "loss_max": 19.67068672180176,
+      "frac_gt_delta": 0.28125,
+      "sum_delta": 5.8097966611385345,
+      "max_W_P": 10.960371136665344,
+      "h3_5": 21.737651944160124,
+      "max_W_over_h3": 0.5042113639881826,
+      "seed": 3,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_06",
+      "day": "2018-04-06",
+      "n_M": 21,
+      "loss_q50": 1.0965957641601562,
+      "loss_q99": 20.69581527709962,
+      "loss_max": 24.77953720092773,
+      "frac_gt_delta": 0.47619047619047616,
+      "sum_delta": 18.148861481721077,
+      "max_W_P": 57.183856457079685,
+      "h3_5": 58.077172433734084,
+      "max_W_over_h3": 0.9846184664435296,
+      "seed": 4,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_12",
+      "day": "2018-04-12",
+      "n_M": 96,
+      "loss_q50": 0.7644317746162415,
+      "loss_q99": 28.05520887374878,
+      "loss_max": 28.54800796508789,
+      "frac_gt_delta": 0.40625,
+      "sum_delta": 75.89880475817648,
+      "max_W_P": 7.179598985592176,
+      "h3_5": 58.077172433734084,
+      "max_W_over_h3": 0.12362170341168179,
+      "seed": 4,
+      "scorer": "orthrus"
+    },
+    {
+      "attack": "Nginx_Backdoor_13",
+      "day": "2018-04-13",
+      "n_M": 32,
+      "loss_q50": 0.8540813028812408,
+      "loss_q99": 18.212346827983882,
+      "loss_max": 24.76035499572754,
+      "frac_gt_delta": 0.375,
+      "sum_delta": 20.048868882495576,
+      "max_W_P": 21.208150834755177,
+      "h3_5": 58.077172433734084,
+      "max_W_over_h3": 0.36517189019409696,
+      "seed": 4,
+      "scorer": "orthrus"
+    }
+  ],
+  "orthrus_pair": "q99_kind"
+}

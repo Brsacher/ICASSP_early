@@ -1,0 +1,7 @@
+commit 54d370010678f4187d4462668cec3260dd0821da
+Author:     cc <email>
+AuthorDate: 2026-09-20T03:50:37-04:00
+Commit:     cc <email>
+CommitDate: 2026-09-20T03:50:37-04:00
+
+    v9-5：用 Kairos epoch-11 分数按 PROTOCOL_v9 reset 重放 FirstAlarm（CADETS）
