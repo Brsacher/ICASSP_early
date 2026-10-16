@@ -37,7 +37,23 @@ mkdir -p "$FA_DATA_ROOT" "$FA_ART_ROOT"
 if [ -z "$FROM_DIR" ]; then
     for name in $PACKS; do
         echo "fetch $name"
-        curl -fL --retry 3 -o "$FA_DATA_ROOT/$name" "${RELEASE}/${name}"
+        ok=0
+        attempt=1
+        while [ "$attempt" -le 6 ]; do
+            if curl -fL --retry 5 --retry-all-errors --retry-delay 2 \
+                -o "$FA_DATA_ROOT/$name" "${RELEASE}/${name}"; then
+                ok=1
+                break
+            fi
+            echo "retry ${name} (${attempt})" >&2
+            rm -f "$FA_DATA_ROOT/$name"
+            attempt=$((attempt + 1))
+            sleep 2
+        done
+        if [ "$ok" -ne 1 ]; then
+            echo "failed to fetch ${name}" >&2
+            exit 1
+        fi
     done
     FROM_DIR=$FA_DATA_ROOT
 fi
